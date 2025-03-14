@@ -1,4 +1,4 @@
-tensorflow-cpu
+tensorflow-cpu>=2.10.0
 keras
 numpy
 pandas
