@@ -31,7 +31,7 @@ st.markdown("""
 # Load model once and cache
 @st.cache_resource
 def get_model():
-    model_path = r".\model\final_dr_model.pt"
+    model_path = r"./model/final_dr_model.pt"
     model, _ = load_model(model_path, device=device)  # Unpack correctly
     return model
 
